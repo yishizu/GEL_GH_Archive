@@ -1,0 +1,51 @@
+<DatasmithUnrealScene>
+	<Version>0.24</Version>
+	<SDKVersion>5.1.1-23901901</SDKVersion>
+	<Host>Rhino</Host>
+	<Application Vendor="Robert McNeel &amp; Associates" ProductName="Rhino3D" ProductVersion="7"/>
+	<ResourcePath>C:/Users/ykish/Documents/GitHub/GEL_GH_Archive/025_LadyBug</ResourcePath>
+	<User ID="22777cec491ebb72aba9fda72a0d5888" OS="Windows 11 (22H2) [10.0.22621.1702]"/>
+	<StaticMesh name="f7ad9e18d3a387b7057759ee5d87cc64" label="mesh">
+		<file path="Site_Assets/f7ad9e18d3a387b7057759ee5d87cc64.udsmesh"/>
+		<Size a="7717446.5" x="2604.749756" y="2084.968506" z="1301.659546"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="8bad6f78c28ea508a75f2a5b59f223ca"/>
+		<Material id="0" name="eec34d804c9ce6c89cff596be555e6a4"/>
+	</StaticMesh>
+	<StaticMesh name="c13227ea6f3adf7dd1fb34626688bf67" label="brep">
+		<file path="Site_Assets/c13227ea6f3adf7dd1fb34626688bf67.udsmesh"/>
+		<Size a="5760247.5" x="3014.080811" y="2518.855957" z="138.558945"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="2709f9c98f85a350033c364591b4319d"/>
+		<Material id="0" name="eec34d804c9ce6c89cff596be555e6a4"/>
+	</StaticMesh>
+	<Actor name="9d4338d8b07a86a9b06a46fd839327d7" label="Layer_01" layer="Layer 01">
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000000000000000000000000000000000000000000000000000F03F"/>
+		<tag value="Rhino.ID: d8752ea9-1f74-4e49-bd7b-26835dfa29a9" />
+		<tag value="Rhino.Entity.Type: layer" />
+		<children visible="true">
+			<ActorMesh name="c1e8f0d255a10474030876805b823e3c" label="mesh" layer="Layer 01">
+				<mesh name="f7ad9e18d3a387b7057759ee5d87cc64"/>
+				<Transform tx="1350.556856" ty="-1133.598161" tz="-10.548292" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000000000000000000000000000000000000000000000000000F03F"/>
+				<tag value="Rhino.ID: cb2fb496-fbfb-4314-972f-8bd852270b0b" />
+				<tag value="Rhino.Entity.Type: mesh" />
+			</ActorMesh>
+			<ActorMesh name="c34a597d73a52cdee2b52e92483bc245" label="brep" layer="Layer 01">
+				<mesh name="c13227ea6f3adf7dd1fb34626688bf67"/>
+				<Transform tx="1493.95637" ty="-1241.37746" tz="-48.512513" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000000000000000000000000000000000000000000000000000F03F"/>
+				<tag value="Rhino.ID: 6d77759c-e7d1-4289-929a-0f62de4437de" />
+				<tag value="Rhino.Entity.Type: brep" />
+			</ActorMesh>
+		</children>
+	</Actor>
+	<UEPbrMaterial name="eec34d804c9ce6c89cff596be555e6a4" label="material">
+		<Expressions>
+			<Color Name="Diffuse_Color" constant="(R=0.955973,G=0.955973,B=0.955973,A=1.000000)"/>
+		</Expressions>
+		<Input Name="BaseColor" expression="0" OutputIndex="0"/>
+		<OpacityMaskClipValue value="0.3333"/>
+	</UEPbrMaterial>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>
